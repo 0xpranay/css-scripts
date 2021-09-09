@@ -1,0 +1,99 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    background-color: #344A72;
+}
+
+.container
+{
+    margin: auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: 200%;
+    height: auto;
+}
+
+#form-wrap
+{
+    padding: 0px 10px 10px 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#sign-up
+{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#free
+{
+    text-align: center;
+    line-height: 0.2rem;
+}
+
+.form-group
+{
+    margin: auto;
+    width: 90%;
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+
+.form-group label
+{
+    display: block;
+    margin: none;
+    padding-bottom: 10px;
+}
+
+.form-group input
+{
+    width: 100%;
+    line-height: 2em;
+}
+
+#form-wrap button
+{
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #49c1a2;
+    color: white;
+    border-radius: 10px;
+}
+
+#form-wrap button a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer
+{
+    color: white;
+    text-align: center;
+}
+footer a
+{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+#terms
+{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+#terms a
+{
+    text-decoration: none;
+}
