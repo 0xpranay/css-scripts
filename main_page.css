@@ -1,0 +1,274 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+
+#navbar
+{
+    top: 0;
+    list-style: none;
+    position: sticky;
+    background-color: #333;
+    overflow: auto;
+    z-index: 100;
+}
+
+#navbar li
+{
+    float: left;
+}
+
+#navbar li a
+{
+    font-size: 20px;
+    display: block;
+    color: #f7c08a;
+    text-decoration: none;
+    padding: 15px 40px;
+}
+
+#navbar li a:hover
+{
+    color: white;
+    background-color: #444;
+}
+
+#navbar li:first-child
+{
+    margin-right: 800px;
+    margin-left: 80px;
+}
+
+#hyperlink
+{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar #logo a:hover
+{
+    background-color: #333;
+}
+
+#container
+{
+    margin: auto;
+    max-width: 1440px;
+    height: auto;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#welcome-box
+{
+    height: 600px;
+    background-image: url('./img/showcase.jpg');
+}
+
+#welcome-box h1
+{
+    padding-top: 180px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#welcome-box h1
+{
+    color: white;
+}
+
+#welcome-box p
+{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#yellow
+{
+    color: #f7c08a;
+}
+
+#welcome-box #about-btn
+{
+    display: block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+#history-image
+{
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    float: left;
+    width: 720px;
+    height: 480px;
+    overflow: hidden;
+}
+.clr
+{
+    clear: both;
+}
+#history
+{
+    float: left;
+    width: 720px;
+    height: 480px;
+    padding: 70px;
+    background-color: #333;
+}
+#history h1
+{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#history p
+{
+    color: white;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.btn
+{
+    display: block;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn:hover
+{
+    background-color: #f7c08a;
+}
+
+.btn a
+{
+    text-decoration: none;
+    color: black;
+}
+.box
+{
+    width: 33.3%;
+    height: 280px;
+    background-color: #333;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+.box h3
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#location, #fitness
+{
+    background-color: #fff;
+}
+#meals
+{
+    background-color: #f7c08a;
+}
+footer
+{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* About Page */
+
+#about-box
+{
+    padding: 30px 0px;
+    margin: 0px 170px;
+    background-color: #f4f4f4;
+}
+
+#about-box #first-para
+{
+    width: 500px;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 2em;
+}
+
+#about-box #second-para
+{
+    width: 500px;
+    height: auto;
+    text-align: left;
+    line-height: 2em;
+}
+
+#first-float
+{
+    float: left;
+}
+
+#photo-2
+{
+   display: block;
+   margin: auto;
+   width: 30%;
+   border-radius: 70%;
+}
+
+#testimonial
+{
+    background: url(./img/test-bg.jpg) no-repeat center center/cover;
+    padding: 30px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+#testimonial h1
+{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.testimonial-box
+{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    background-color: #f7c08a;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.person-image
+{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
